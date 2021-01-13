@@ -67,8 +67,6 @@ longline_formatted = re.sub(r'\B\@\w+', '', longline.translate(non_bmp_map))
 wordlistBig = str.split(longline_formatted)
 wordlistSmall = str.split(longline_formatted)
 
-print(longline)
-
 for x in range(5):
 	print(findLongest(wordlistBig))
 
